@@ -1,0 +1,14 @@
+a {
+  position: relative;
+}
+
+a::after {
+  content: '';
+  width: 110%;
+  height: 0.4rem;
+  border-radius: 999px;
+  position: absolute;
+  z-index: -1;
+  top: 70%;
+  left: -5%;
+}
