@@ -9,13 +9,13 @@ const Footer = () => (
     <nav className="mb-10">
       <ul className="flex gap-8 text-primary-100">
         <li>
-          <a href="#about">About</a>
+          <a className='hover:text-neutral-100' href="#about">About</a>
         </li>
         <li>
-          <a href="#services">Services</a>
+          <a className='hover:text-neutral-100' href="#services">Services</a>
         </li>
         <li>
-          <a href="#projects">Projects</a>
+          <a className='hover:text-neutral-100' href="#projects">Projects</a>
         </li>
       </ul>
     </nav>
