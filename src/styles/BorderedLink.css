@@ -12,3 +12,11 @@ a::after {
   top: 70%;
   left: -5%;
 }
+
+.red::after {
+  background-color: hsl(7, 99%, 70%);
+}
+
+.yellow::after {
+  background-color: hsl(51, 100%, 49%);
+}
