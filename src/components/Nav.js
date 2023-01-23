@@ -15,7 +15,7 @@ const Nav = () => {
   }
 
   return (
-    <nav className="flex items-center justify-between p-8">
+    <nav className="flex items-center justify-between py-8 px-10">
       <img src={logo} alt="logo" />
       <img
         src={hamburgerMenu}
@@ -24,7 +24,7 @@ const Nav = () => {
         onClick={handleMenuVisibility}
       />
       {/* <ul className="hidden sm:flex gap-8 items-center">      */}
-      <ul className="primary-navigation sm:flex sm:gap-8 sm:items-center" data-expanded={isExpanded}>
+      <ul className="primary-navigation sm:flex sm:gap-10 sm:items-center" data-expanded={isExpanded}>
         {links.map((link, index) => (
           <Link key={index} name={link} />
         ))}

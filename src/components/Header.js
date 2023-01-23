@@ -8,10 +8,10 @@ const Header = () => (
   >
     <Nav />
     <div className="text-center">
-      <h1 className="text-neutral-100 text-5xl tracking-widest font-serif uppercase my-12">
+      <h1 className="text-neutral-100 text-6xl tracking-[.15em] font-serif font-black uppercase my-20">
         we are creatives
       </h1>
-      <img className="inline-block" src={downArrow} alt="down arrow" />
+      <img className="inline-block mt-5" src={downArrow} alt="down arrow" />
     </div>
   </header>
 );
