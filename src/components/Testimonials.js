@@ -31,7 +31,7 @@ const clients = [
 ];
 
 const Testimonials = () => (
-  <section className='text-center lg:px-10 lg:my-28'>
+  <section id="testimonials" className='text-center lg:px-10 lg:my-28'>
     <h3 className='font-serif text-neutral-200 uppercase tracking-widest my-14 font-black'>client testimonials</h3>
     <div className='lg:flex'>
       {clients.map((client) => (

@@ -3,7 +3,7 @@ import transformImage from '../images/mobile/image-transform.jpg';
 import standOutImage from '../images/desktop/image-stand-out.jpg';
 
 const About = () => (
-  <section>
+  <section id="about">
     <section className="md:flex md:flex-row-reverse">
       <img src={transformImage} alt="transform" className="md:w-1/2" />
       <div className="md:w-1/2">

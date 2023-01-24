@@ -18,7 +18,7 @@ const services = [
 ];
 
 const Services = () => (
-  <section className="sm:grid sm:grid-cols-[repeat(2,_1fr)] ">
+  <section id="services" className="sm:grid sm:grid-cols-[repeat(2,_1fr)] ">
     {services.map((service, index) => (
       <Service
         key={index}
