@@ -8,7 +8,7 @@ const Header = () => (
   >
     <Nav />
     <div className="text-center">
-      <h1 className="text-neutral-100 text-6xl tracking-[.15em] font-serif font-black uppercase my-20">
+      <h1 className="text-neutral-100 sm:text-6xl text-5xl tracking-[.15em] font-serif font-black uppercase my-20">
         we are creatives
       </h1>
       <img className="inline-block mt-5" src={downArrow} alt="down arrow" />
